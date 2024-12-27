@@ -36,7 +36,6 @@ const ProfileLayout = () => {
           if (!tab) {
             setSearchParams({ tab: "dashboard" });
           }
-          console.log(username);
           info.setHref({
             label: username!,
             url: `/${username!}?tab=dashboard`,
